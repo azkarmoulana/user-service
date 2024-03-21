@@ -1,0 +1,38 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serverless offline",
+    "deploy": "sls deploy --verbose"
+  },
+  "keywords": [],
+  "author": "Azkar Moulana",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.131",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/pg": "^8.11.2",
+    "serverless-offline": "^13.3.3",
+    "serverless-plugin-typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "@middy/core": "^5.2.4",
+    "@middy/http-json-body-parser": "^5.2.4",
+    "aws-lambda": "^1.0.7",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "dayjs": "^1.11.10",
+    "db-migrate-pg": "^1.5.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.2.1",
+    "ts-node": "^10.9.2",
+    "tsyringe": "^4.8.0",
+    "twilio": "^5.0.1",
+    "typescript": "^5.3.3"
+  }
+}
